@@ -288,7 +288,7 @@ window.onload = function() {
   ui.initOAuth({
     clientId: "{{.OAuth.ClientId}}",
     realm: "{{.OAuth.Realm}}",
-    appName: "{{.OAuth.AppName}}"
+    appName: "{{.OAuth.AppName}}",
     usePkceWithAuthorizationCodeGrant: true
   })
   {{end}}
